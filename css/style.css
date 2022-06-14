@@ -1,0 +1,90 @@
+body {
+  background-image: url(../img/fondo_bd.jpg);
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden; }
+
+header .container-fluid {
+  background: linear-gradient(0deg, #d4a373 0%, #faedcd 100%); }
+  header .container-fluid .navbar .navbar-nav .nav-item .nav-link {
+    transition: background-color 2s ease-out 100ms; }
+  header .container-fluid .navbar .navbar-nav .nav-item:hover {
+    background-color: #92a455; }
+  header .container-fluid .navbar form .btn {
+    color: #000000;
+    background-color: #92a455;
+    transition: transform .5s ease-in-out; }
+    header .container-fluid .navbar form .btn:hover {
+      transform: scale(1.1); }
+
+main .main_title {
+  background-image: url(../img/fondo.jpg);
+  padding: 20px;
+  font-weight: bolder;
+  text-align: center; }
+
+main section h2 {
+  font-weight: bolder;
+  text-align: center; }
+
+main section .card_main {
+  background: linear-gradient(270deg, #ccd5ae 0%, #fefae0 100%);
+  border: solid 5px #d4a373;
+  border-radius: 20px;
+  padding: 2rem;
+  -webkit-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75); }
+  main section .card_main img {
+    border-radius: 20px; }
+
+.card_data {
+  background: linear-gradient(270deg, #fefae0 0%, #ccd5ae 100%);
+  border: solid 5px #d4a373;
+  border-radius: 20px;
+  padding: 2rem;
+  -webkit-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75); }
+  .card_data h4 {
+    font-weight: bolder;
+    text-align: center; }
+  .card_data img {
+    border-radius: 20px; }
+
+.carousel-control-prev {
+  filter: drop-shadow(2px 1px black); }
+
+.carousel-control-next {
+  filter: drop-shadow(2px 1px black); }
+
+.carousel-indicators {
+  filter: drop-shadow(2px 1px black); }
+
+.card {
+  border-radius: 5px; }
+  .card img {
+    height: 320px; }
+  .card .card-body {
+    background-color: #fefae0;
+    border-radius: 5px; }
+  .card .btn {
+    color: #000000;
+    background-color: #92a455;
+    transition: transform .5s ease-in-out; }
+    .card .btn:hover {
+      transform: scale(1.1); }
+  .card:hover {
+    border-color: rgba(0, 0, 0, 0.518);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.518); }
+  .card h5 {
+    font-weight: bold; }
+
+.footer {
+  background-color: #d4a373; }
+  .footer .btn {
+    color: #000000;
+    background-color: #92a455;
+    transition: transform .5s ease-in-out; }
+    .footer .btn:hover {
+      transform: scale(1.1); }

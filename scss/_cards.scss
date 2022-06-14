@@ -1,0 +1,29 @@
+.card {
+    border-radius: 5px;
+    img{
+        height: 320px;
+    }
+    .card-body{
+        background-color: $card_bg_lt;
+        border-radius: 5px;
+    }
+    .btn{
+        color: $btn_text;
+        background-color: $btn_bg;
+        transition: transform .5s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    &:hover {
+        border-color: rgba(0, 0, 0, 0.518);
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.518);
+    }
+    h5{
+        font-weight: bold;
+    }
+}
+
+
+
+

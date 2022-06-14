@@ -1,0 +1,44 @@
+main {
+    .main_title {
+        background-image: url(../img/fondo.jpg);
+        padding: 20px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    section {
+        h2{
+            font-weight: bolder;
+            text-align: center;
+        }
+        .card_main {
+            background: linear-gradient(270deg, $card_bg_dk 0%, $card_bg_lt 100%);
+            border: solid 5px $border_color;
+            border-radius: 20px;
+            padding: 2rem;
+            -webkit-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+            img {
+                border-radius: 20px;
+            }
+            }
+        }
+    }
+
+    .card_data {
+        background: linear-gradient(270deg, $card_bg_lt 0%, $card_bg_dk 100%);
+        border: solid 5px $border_color;
+        border-radius: 20px;
+        padding: 2rem;
+        -webkit-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+        h4{
+            font-weight: bolder;
+            text-align: center;
+        }
+        img {
+            border-radius: 20px;
+        }
+    }
