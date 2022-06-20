@@ -1,0 +1,20 @@
+@mixin cardContent($gradColor1,$gradColor2){
+    background: linear-gradient(270deg, $gradColor1 0%, $gradColor2 100%);
+    border: solid 5px $border_color;
+    border-radius: 20px;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 6px 20px 0px rgba(0, 0, 0, 0.75);
+    img {
+        border-radius: 20px;
+    }
+}
+@mixin btnStyle(){
+    color: $btn_text;
+        background-color: $btn_bg;
+        transition: transform .5s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
+}

@@ -8,12 +8,7 @@
         border-radius: 5px;
     }
     .btn{
-        color: $btn_text;
-        background-color: $btn_bg;
-        transition: transform .5s ease-in-out;
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include btnStyle()
     }
     &:hover {
         border-color: rgba(0, 0, 0, 0.518);
