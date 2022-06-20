@@ -1,11 +1,6 @@
 .footer{
     background-color: $nav_bg_dk;
     .btn{
-        color: $btn_text;
-        background-color: $btn_bg;
-        transition: transform .5s ease-in-out;
-        &:hover{
-            transform: scale(1.1);
-        }
+        @include btnStyle()
     }
 }
