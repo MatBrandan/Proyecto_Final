@@ -1,0 +1,15 @@
+.accordion-button{
+    background-color: #CCD5AE;
+    transition: color .5s ease-in-out;
+    &:hover{
+        font-weight: bolder;
+        filter:brightness(80%);
+    }
+    &:not(.collapsed) {
+        color: black;
+        background-color: #E9EDC9;
+    }
+}
+.accordion-body{
+    background-color: #FEFAE0;
+}

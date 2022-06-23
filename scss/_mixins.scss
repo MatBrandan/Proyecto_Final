@@ -18,3 +18,9 @@
             transform: scale(1.1);
         }
 }
+@mixin sectionTitle(){
+    h4{
+        font-weight: bolder;
+        text-align: left;
+    }
+}
