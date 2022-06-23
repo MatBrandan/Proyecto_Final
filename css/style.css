@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -31,6 +32,13 @@ header .container-fluid .navbar form .btn {
 
 header .container-fluid .navbar form .btn:hover {
   transform: scale(1.1);
+}
+
+main h2 {
+  background-color: #fefae0;
+  padding: 20px;
+  border: 5px solid #ccd5ae;
+  border-radius: 20px;
 }
 
 main .main_title {
@@ -67,11 +75,80 @@ main section .card_main img {
 
 .card_data h4 {
   font-weight: bolder;
-  text-align: center;
+  text-align: left;
 }
 
 .card_data img {
   border-radius: 20px;
+}
+
+.section_data {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  background-color: #fefae0;
+  margin-top: 80px;
+  padding: 0 20px;
+  border-radius: 20px;
+  filter: drop-shadow(2px 2px 20px black);
+}
+
+.section_data #seca img {
+  float: right;
+  width: 55%;
+  padding: 10px;
+}
+
+.section_data #fresca img {
+  float: left;
+  width: 40%;
+  padding-right: 20px;
+}
+
+.section_data #premio p {
+  align-self: center;
+}
+
+.section_data #premio img {
+  float: right;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.section_data h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.section_data img {
+  justify-content: center;
+}
+
+.section_data .img_section {
+  float: right;
+  padding: 0 50px;
+  width: 40%;
+}
+
+.section_data .video {
+  filter: drop-shadow(2px 2px 20px black);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.section_data .video h5 {
+  font-weight: bolder;
+}
+
+.section_data .img_ayuda {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 20%;
+  margin-bottom: 30px;
 }
 
 .carousel-control-prev {
@@ -130,4 +207,23 @@ main section .card_main img {
 
 .footer .btn:hover {
   transform: scale(1.1);
+}
+
+.accordion-button {
+  background-color: #CCD5AE;
+  transition: color .5s ease-in-out;
+}
+
+.accordion-button:hover {
+  font-weight: bolder;
+  filter: brightness(80%);
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #E9EDC9;
+}
+
+.accordion-body {
+  background-color: #FEFAE0;
 }

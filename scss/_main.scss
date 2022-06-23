@@ -1,6 +1,10 @@
-
-
 main {
+    h2{
+        background-color: $card_bg_lt;
+        padding: 20px;
+        border: 5px solid $card_bg_dk;
+        border-radius: 20px;
+    }
     .main_title {
         background-image: url(../img/fondo.jpg);
         padding: 20px;
@@ -16,13 +20,76 @@ main {
         .card_main {
             @include cardContent($card_bg_lt,$card_bg_dk)
             }
+        
         }
     }
 
     .card_data {
-        h4{
-            font-weight: bolder;
-            text-align: center;
+        @include sectionTitle();
+        @include cardContent($card_bg_dk,$card_bg_lt);        
+    }
+    .section_data{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        background-color: $card_bg_lt;
+        margin-top: 80px;
+        padding: 0 20px;
+        border-radius: 20px;
+        filter: drop-shadow(2px 2px 20px black);
+        #seca{
+            img{
+                float: right;
+                width: 55%;
+                padding: 10px;
+            }
         }
-        @include cardContent($card_bg_dk,$card_bg_lt)     
+        #fresca{
+            img{
+                float: left ;
+                width: 40%;
+                padding-right: 20px;
+            }
+        }
+        #premio{  
+            p{
+                align-self: center;
+            }
+            img{
+                float: right;
+                width: 40%;  
+                margin-left: 20px;
+            }
+        }
+        h4{
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-weight: bolder;
+            text-align: left;
+            text-decoration: underline;
+        }
+        img{
+            justify-content: center;
+        }
+        .img_section{
+            float: right;
+            padding: 0 50px;
+            width: 40%;         
+        }
+        .video{
+            filter: drop-shadow(2px 2px 20px black);
+            h5{
+                font-weight: bolder;
+            }
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+        }
+    .img_ayuda{
+        display: inline-block;
+        justify-content: center;
+        margin-left: 20%;
+        margin-bottom: 30px;
+    }
     }
